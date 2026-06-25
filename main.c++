@@ -1,8 +1,8 @@
-#define LDR A0
+#define LDR A0 // jumper LDR ke A0 Board Wemos
 
-#define TRIG D9
-#define ECHO D10
-#define RELAY D5
+#define TRIG D9 // jumper TRIG ke D9 Board Wemos (lokasi nyolok bisa diatur tergantung sikon)
+#define ECHO D10 // jumper ECHO ke D10 Board Wemos (sama)
+#define RELAY D5 // jumper IN RELAY ke D5 Board Wemos (sama)
 
 int batasGelap = 700;
 int batasJarak = 500; // dalam cm bre
